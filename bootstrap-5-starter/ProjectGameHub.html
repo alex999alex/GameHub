@@ -14,7 +14,24 @@
 
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
-
+    <!--Michael added styles Nov 26 2023-->
+    <style>
+      .wrapper{
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-gap: 225px;
+      }
+      
+      .box{
+        background-color: lightblue;
+        color:black;
+        text-align:center;
+        font-size: 25px;
+        font-family: sans-serif;
+        border-radius: 7px;
+      }
+      
+    </style>
   </head>
   
   <body>
@@ -139,6 +156,52 @@
         <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
       </div>
     </div>
+      <!--Michael added game review section 11/26/2023-->
+      <br>
+      <section>
+        <div class="wrapper">
+          <div class="box box1"><a href=# class="" style="text-decoration: none; color: black;"><strong>Recent</strong></a></div>
+          <div class="box box2"><a href=# class="" style="text-decoration: none; color: black;"><strong>Popular</strong></a></div>
+          <div class="box box3"><a href=# class="" style="text-decoration: none; color: black;"><strong>Genre</strong></a></div>
+          <div class="box box4"><a href=# class="" style="text-decoration: none; color: black;"><strong>Rating</strong></a></div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid mt-3" style="display:flex; align-items: center;">
+          <div class="row">
+            <div class="col-sm-3 p-3">
+              <img class="d-inline-block align-top" src="mario.jpg" width="300px" height="200px" style="vertical-align: middle;"></img>
+            </div>
+            <div class="col-sm-3 p-3 text-black">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex sit amet enim commodo, molestie vestibulum ante maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse at lorem ac odio condimentum venenatis. Duis hendreit...</p>
+            </div>
+            <div class="col-sm-3 p-3">
+              <img class="d-inline-block align-top" src="alanwake2.jpg" width="300px" height="200px" style="float:left"></img>
+            </div>
+            <div class="col-sm-3 p-3 text-black">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex sit amet enim commodo, molestie vestibulum ante maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse at lorem ac odio condimentum venenatis. Duis hendreit...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section>
+      <div class="container-fluid mt-3" style="align-items: center;">
+        <div class="row">
+          <div class="col-sm-3 p-3">
+            <img class="d-inline-block align-top" src="spiderman.jpg" width="300px" height="200px" style="float:left"></img>
+          </div>
+          <div class="col-sm-3 p-3 text-black">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex sit amet enim commodo, molestie vestibulum ante maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse at lorem ac odio condimentum venenatis. Duis hendreit...</p>
+          </div>
+          <div class="col-sm-3 p-3">
+            <img class="d-inline-block align-top" src="twd.jpg" width="300px" height="200px" style="float:left"></img>
+          </div>
+          <div class="col-sm-3 p-3 text-black">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex sit amet enim commodo, molestie vestibulum ante maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse at lorem ac odio condimentum venenatis. Duis hendreit...</p>
+          </div>
+        </div>
+      </div>
+    </section>
 	</main>
   <script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.bundle.min.js"></script>
