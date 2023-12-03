@@ -23,7 +23,19 @@ CSS Alex added
 Start
 
 */
-
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 225px;
+}
+.box{
+    background-color: lightblue;
+    color:black;
+    text-align:center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
 .youtube-video {
     position: relative;
     width: 100%;
