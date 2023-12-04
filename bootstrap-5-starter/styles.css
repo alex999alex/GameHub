@@ -75,7 +75,14 @@ Start
     word-wrap: break-word;
   }
 
-
+img.image-left {
+	float: left; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
 
 /*
 
