@@ -56,7 +56,57 @@ Start
 /* This is for the describe of the "T1 WINS WORLD CHAMPIONSHIP"*/
 .bg-dark.text-white {
     word-wrap: break-word;
+
+	font-family: Verdana, Arial, sans-serif;
+	text-align: justify;
+
   }
+
+img.gameimage {
+	float: left; 
+	width: 300px;
+	height: 300px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+
+.main-content {
+	width: 90%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column_gutter { 
+	width: 5%;
+	float:left;
+}
+
+.column_gutter:after {
+	content: '\200b'; 
+}
+
+article.column_one {
+	float: left;
+
+}
+
+article.column_two {
+	float: left;
+	width: 47.5%; 
+}
+
+article.column_three {
+    float: left;
+    width: 100%;
+}
+
+p.game_text {
+	font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: justify;
+}
 
 img.image-left {
 	float: left; 
@@ -66,6 +116,25 @@ img.image-left {
 	border: 1px solid;
 	padding: 5px;
 }
+
+img.image-right {
+	float: right; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 0% 3% 3%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+h4.game_header {
+	font-size: 300%;
+	margin: 2.5% 2.5% 2.5% 2.5%;
+	text-decoration: underline;
+}
+
+
+
+
 
 /*
 
