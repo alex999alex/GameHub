@@ -1,38 +1,9 @@
 @charset "UTF-8";
 
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-}
-
-.b-example-divider {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
-
-.b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
-}
-
-.bi {
-    vertical-align: -.125em;
-    fill: currentColor;
 }
 
 .bg-dark{
@@ -44,13 +15,52 @@
     padding: 0px;
 }
 
+ul li{
+    padding:0 40px 0 40px;
+}
+
+
+#footerlogo{
+    width: 10%;
+}
+
+.nav-link{
+    color: #0d6efd;
+}
+
+#Authors{
+    
+    color: white;
+    text-align: center;
+    padding:20px 0 30px 0px;
+    margin: 0;
+}
+/*
+
+CSS Alex added
+Start
+
+*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 225px;
+}
+.box{
+    background-color: lightblue;
+    color:black;
+    text-align:center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
 .youtube-video {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     overflow: hidden;
-  }
-  
+}
+
 .youtube-video iframe {
     position: absolute;
     top: 0;
@@ -59,6 +69,7 @@
     height: 100%;
 }
 
+/* Michael changes begin 12/08 */
 .wrapper{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
@@ -108,3 +119,95 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:black;
 }
+
+/* Michael changes end 12/08 */
+
+/* This is for the describe of the "T1 WINS WORLD CHAMPIONSHIP"*/
+.bg-dark.text-white {
+    word-wrap: break-word;
+
+	font-family: Verdana, Arial, sans-serif;
+	text-align: justify;
+
+  }
+
+img.gameimage {
+	float: left; 
+	width: 300px;
+	height: 300px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+
+.main-content {
+	width: 90%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column_gutter { 
+	width: 5%;
+	float:left;
+}
+
+.column_gutter:after {
+	content: '\200b'; 
+}
+
+article.column_one {
+	float: left;
+
+}
+
+article.column_two {
+	float: left;
+	width: 47.5%; 
+}
+
+article.column_three {
+    float: left;
+    width: 100%;
+}
+
+p.game_text {
+	font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: justify;
+}
+
+img.image-left {
+	float: left; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 3% 3% 0%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+img.image-right {
+	float: right; 
+	width: 200px;
+	height: 200px;
+	margin: 3% 0% 3% 3%;
+	border: 1px solid;
+	padding: 5px;
+}
+
+h4.game_header {
+	font-size: 300%;
+	margin: 2.5% 2.5% 2.5% 2.5%;
+	text-decoration: underline;
+}
+
+
+
+
+
+/*
+
+CSS Alex added
+End
+
+*/
