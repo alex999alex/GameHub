@@ -63,6 +63,7 @@
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-gap: 300px;
+    justify-content: space-evenly;
 }
 
 .box{
@@ -72,4 +73,38 @@
         font-size: 25px;
         font-family: sans-serif;
         border-radius: 7px;
+}
+
+.box:hover{
+    background-color: lightskyblue;
+}
+
+.border {
+    border:0.5px groove;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.reviewtitle{
+    background-color: gray;
+    text-align: center;
+    color: black;
+    padding-bottom: 20x;
+    padding-top: 25px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.reviewtitle, .title{
+    font-weight: bold;
+}
+.paragraph, .title, .reviewtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
 }
