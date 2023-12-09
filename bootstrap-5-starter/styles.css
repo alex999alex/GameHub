@@ -45,7 +45,6 @@ iframe{
 /*
 
 CSS Alex added
-Start
 
 */
 .wrapper{
@@ -132,8 +131,8 @@ Start
 /* This is for the describe of the "T1 WINS WORLD CHAMPIONSHIP"*/
 .bg-dark.text-white {
     word-wrap: break-word;
-
-	font-family: Verdana, Arial, sans-serif;
+    font-size: 20px;
+	font-family: 'Franklin Gothic Medium', Verdana, sans-serif;
 	text-align: justify;
 
   }
@@ -181,6 +180,7 @@ article.column_three {
 p.game_text {
 	font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 	text-align: justify;
 }
 
@@ -207,14 +207,3 @@ h4.game_header {
 	margin: 2.5% 2.5% 2.5% 2.5%;
 	text-decoration: underline;
 }
-
-
-
-
-
-/*
-
-CSS Alex added
-End
-
-*/
