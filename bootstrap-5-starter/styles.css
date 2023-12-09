@@ -35,6 +35,13 @@ ul li{
 }
 
 
+/*Extra Help to Validate Andre*/
+
+iframe{
+    width: 100%;
+    border:none;
+}
+
 /*
 
 CSS Alex added
@@ -100,7 +107,7 @@ Start
     background-color: gray;
     text-align: center;
     color: black;
-    padding-bottom: 20x;
+    padding-bottom: 20px;
     padding-top: 25px;
 }
 
