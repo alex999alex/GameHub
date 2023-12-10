@@ -34,6 +34,11 @@ ul li{
     margin: 0;
 }
 
+#Michael, #Alex, #Carlos{
+    height: 700px;
+    width: 500px;
+}
+
 
 /*Extra Help to Validate Andre*/
 
